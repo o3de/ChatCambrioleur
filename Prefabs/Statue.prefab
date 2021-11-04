@@ -1,0 +1,266 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Statue",
+        "Components": {
+            "Component_[10201160415122240381]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10201160415122240381
+            },
+            "Component_[11872268378844311752]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11872268378844311752
+            },
+            "Component_[13898645257830697165]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13898645257830697165
+            },
+            "Component_[14854564753404862446]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14854564753404862446
+            },
+            "Component_[15151927230634425162]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15151927230634425162
+            },
+            "Component_[16722200182735467778]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16722200182735467778
+            },
+            "Component_[18093429842833314476]": {
+                "$type": "EditorLockComponent",
+                "Id": 18093429842833314476
+            },
+            "Component_[3491358164467452199]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3491358164467452199,
+                "Parent Entity": ""
+            },
+            "Component_[510175534004129877]": {
+                "$type": "SelectionComponent",
+                "Id": 510175534004129877
+            },
+            "Component_[6471893575095745509]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6471893575095745509
+            },
+            "Component_[6892353940288048725]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 6892353940288048725
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[51962783401909]": {
+            "Id": "Entity_[51962783401909]",
+            "Name": "Statue",
+            "Components": {
+                "Component_[11157511149819183514]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11157511149819183514
+                },
+                "Component_[12478795074683147361]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12478795074683147361,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{73590770-98D4-5843-AFB6-B3ED9153B8DE}",
+                                    "subId": 277379233
+                                },
+                                "assetHint": "assets/environment/statue/low.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13055917491071662528]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13055917491071662528,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            5.850536346435547
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -90.00000762939453
+                        ],
+                        "UniformScale": 80.0
+                    }
+                },
+                "Component_[13401239602653138612]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13401239602653138612,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            2.0
+                        ],
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                40.0,
+                                40.0,
+                                40.0
+                            ],
+                            "Configuration": [
+                                2.0,
+                                2.0,
+                                5.0
+                            ]
+                        },
+                        "PhysicsAsset": {
+                            "Configuration": {
+                                "Scale": [
+                                    0.5,
+                                    0.5,
+                                    0.5
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Component_[15488736750036379647]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15488736750036379647
+                },
+                "Component_[16723820956429935727]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16723820956429935727
+                },
+                "Component_[17549654615827006516]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17549654615827006516
+                },
+                "Component_[18034789536521488241]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18034789536521488241
+                },
+                "Component_[3547031687370882825]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3547031687370882825,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13055917491071662528
+                        },
+                        {
+                            "ComponentId": 12478795074683147361,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7360121425182663316,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7360121425182663316]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7360121425182663316,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {},
+                                    "Value": {}
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1848428894
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{75CBAFB7-AECB-576F-AA6A-A0D5171581D7}"
+                                            },
+                                            "assetHint": "assets/environment/statue/statue.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 1496239946
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{75CBAFB7-AECB-576F-AA6A-A0D5171581D7}"
+                                },
+                                "assetHint": "assets/environment/statue/statue.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 4010964984
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3528679213
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2572481402
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1496239946
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 4010964984
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3528679213
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2572481402
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[760206156828510980]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 760206156828510980
+                },
+                "Component_[8806719090204543730]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8806719090204543730
+                },
+                "Component_[920862750235465247]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 920862750235465247
+                }
+            }
+        }
+    }
+}

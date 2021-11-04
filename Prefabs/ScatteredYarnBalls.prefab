@@ -1,0 +1,348 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ScatteredYarnBalls",
+        "Components": {
+            "Component_[12104925572191817973]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12104925572191817973
+            },
+            "Component_[13460544982450404106]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13460544982450404106
+            },
+            "Component_[15185650665823432065]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15185650665823432065
+            },
+            "Component_[1762061997614512407]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1762061997614512407,
+                "Parent Entity": ""
+            },
+            "Component_[2864176676670556952]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2864176676670556952
+            },
+            "Component_[3234230716424060356]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3234230716424060356
+            },
+            "Component_[5010151362455647241]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5010151362455647241
+            },
+            "Component_[6154379824001312530]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6154379824001312530
+            },
+            "Component_[6833286510019162318]": {
+                "$type": "EditorLockComponent",
+                "Id": 6833286510019162318
+            },
+            "Component_[7973288106484677535]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7973288106484677535
+            },
+            "Component_[989273694370892626]": {
+                "$type": "SelectionComponent",
+                "Id": 989273694370892626
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[59296138814624]": {
+            "Id": "Entity_[59296138814624]",
+            "Name": "ScatteredYarnBalls",
+            "Components": {
+                "Component_[12344958870392856672]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12344958870392856672
+                },
+                "Component_[14925552992339169052]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14925552992339169052
+                },
+                "Component_[17992239934379093939]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17992239934379093939
+                },
+                "Component_[1805507402322485394]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1805507402322485394
+                },
+                "Component_[18322922636427111647]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18322922636427111647
+                },
+                "Component_[3496299265173740803]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3496299265173740803
+                },
+                "Component_[4048293399426630760]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4048293399426630760,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[5518132626469430746]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5518132626469430746
+                },
+                "Component_[5630124753710194116]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5630124753710194116
+                },
+                "Component_[7225257524462479716]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7225257524462479716,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4048293399426630760
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[26720658142863]": {
+            "Source": "Prefabs/YarnBall.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/0",
+                    "value": -10.84281063079834
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/1",
+                    "value": -8.011048316955566
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/2",
+                    "value": 1.4075069427490237
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Rotate"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Scale"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Locked"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/UniformScale"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Cached World Transform",
+                    "value": {
+                        "Translation": [
+                            -4.010179996490479,
+                            20.07002067565918,
+                            -0.4883846044540405
+                        ]
+                    }
+                }
+            ]
+        },
+        "Instance_[27309068662415]": {
+            "Source": "Prefabs/YarnBall.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/0",
+                    "value": 20.95307159423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/1",
+                    "value": 27.877199172973633
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/2",
+                    "value": 1.3075069189071655
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Rotate"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Scale"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Locked"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/UniformScale"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Cached World Transform",
+                    "value": {
+                        "Translation": [
+                            -6.414298534393311,
+                            13.458264350891113,
+                            -0.4883846044540405
+                        ]
+                    }
+                }
+            ]
+        },
+        "Instance_[27854529509007]": {
+            "Source": "Prefabs/YarnBall.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/0",
+                    "value": 10.829671859741211
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/1",
+                    "value": 10.671415328979492
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/2",
+                    "value": -0.32716846466064453
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[28614738720399]": {
+            "Source": "Prefabs/YarnBall.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/0",
+                    "value": 4.556494235992432
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/1",
+                    "value": -4.577625751495361
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/2",
+                    "value": 3.182924032211304
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Rotate/2",
+                    "value": -66.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Scale"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Locked"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/UniformScale"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Cached World Transform",
+                    "value": {
+                        "Translation": [
+                            0.7195320129394531,
+                            6.5763349533081055,
+                            -0.4112229347229004
+                        ]
+                    }
+                }
+            ]
+        },
+        "Instance_[29589696296591]": {
+            "Source": "Prefabs/YarnBall.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/0",
+                    "value": 19.899581909179688
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/1",
+                    "value": -3.661984920501709
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Translate/2",
+                    "value": 1.2930498123168945
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Rotate/2",
+                    "value": 78.0
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Scale"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/Locked"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Transform Data/UniformScale"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[11977536417061674756]/Cached World Transform",
+                    "value": {
+                        "Translation": [
+                            18.33221244812012,
+                            14.619083404541016,
+                            1.5971581935882568
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

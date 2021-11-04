@@ -1,0 +1,140 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "PlayerSpawnPoint",
+        "Components": {
+            "Component_[11839439397374039895]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11839439397374039895
+            },
+            "Component_[13665553723362716747]": {
+                "$type": "SelectionComponent",
+                "Id": 13665553723362716747
+            },
+            "Component_[15654202988240016701]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15654202988240016701
+            },
+            "Component_[16751214202697967945]": {
+                "$type": "EditorLockComponent",
+                "Id": 16751214202697967945
+            },
+            "Component_[16818942642090728628]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16818942642090728628,
+                "Parent Entity": ""
+            },
+            "Component_[2089923793472668909]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2089923793472668909
+            },
+            "Component_[4872286493592362424]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4872286493592362424
+            },
+            "Component_[5662250040225171238]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5662250040225171238
+            },
+            "Component_[667793606184893225]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 667793606184893225
+            },
+            "Component_[6785040902448778955]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6785040902448778955
+            },
+            "Component_[6830976886578610516]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6830976886578610516
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3041912626715]": {
+            "Id": "Entity_[3041912626715]",
+            "Name": "PlayerSpawnPoint",
+            "Components": {
+                "Component_[12938529216333209738]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12938529216333209738
+                },
+                "Component_[13157686359515882970]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13157686359515882970
+                },
+                "Component_[14013178704029251341]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14013178704029251341
+                },
+                "Component_[16592562023182480967]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16592562023182480967
+                },
+                "Component_[17083411631574903152]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17083411631574903152
+                },
+                "Component_[17377061952222966002]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17377061952222966002
+                },
+                "Component_[17377279241079458240]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17377279241079458240,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2783210843562550692
+                        },
+                        {
+                            "ComponentId": 9357572300666327907,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[2783210843562550692]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2783210843562550692,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -21.799999237060547,
+                            2.8999996185302734,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[4417483240576814025]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4417483240576814025
+                },
+                "Component_[4460753245712286601]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4460753245712286601
+                },
+                "Component_[9357572300666327907]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 9357572300666327907,
+                    "m_name": "PlayerSpawnPoint",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{B8E48655-8412-5FB6-AD23-359D0B2FEED2}"
+                            },
+                            "assetHint": "scriptcanvas/playerspawnpoint.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{B8E48655-8412-5FB6-AD23-359D0B2FEED2}"
+                            },
+                            "assetHint": "scriptcanvas/playerspawnpoint.scriptcanvas"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

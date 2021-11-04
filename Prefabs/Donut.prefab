@@ -1,0 +1,205 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "donut",
+        "Components": {
+            "Component_[12873618571423667051]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12873618571423667051
+            },
+            "Component_[13076443372199205810]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13076443372199205810
+            },
+            "Component_[15329130788451255854]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15329130788451255854
+            },
+            "Component_[15635809755928345213]": {
+                "$type": "SelectionComponent",
+                "Id": 15635809755928345213
+            },
+            "Component_[18359316783905473836]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18359316783905473836
+            },
+            "Component_[216036725068127570]": {
+                "$type": "EditorLockComponent",
+                "Id": 216036725068127570
+            },
+            "Component_[2510771894137994813]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2510771894137994813
+            },
+            "Component_[2841798012464532043]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 2841798012464532043
+            },
+            "Component_[3818250583014984226]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3818250583014984226,
+                "Parent Entity": ""
+            },
+            "Component_[6747168139199850580]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 6747168139199850580
+            },
+            "Component_[9603719904448347827]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9603719904448347827
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[9724150887422]": {
+            "Id": "Entity_[9724150887422]",
+            "Name": "donut",
+            "Components": {
+                "Component_[11061410743624302450]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11061410743624302450
+                },
+                "Component_[11124471374361491778]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11124471374361491778
+                },
+                "Component_[13839517960834666679]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13839517960834666679
+                },
+                "Component_[16873418975065399752]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16873418975065399752,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{89A4E13F-100D-5B0D-B563-DAED141F7402}",
+                                    "subId": 280764281
+                                },
+                                "assetHint": "assets/environment/donut/donut.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2227118065819954389]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2227118065819954389
+                },
+                "Component_[2671269330186905861]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2671269330186905861
+                },
+                "Component_[2741703111051519840]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2741703111051519840,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 5.0
+                    }
+                },
+                "Component_[6996661163139597184]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6996661163139597184
+                },
+                "Component_[7052883840487612249]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7052883840487612249,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2741703111051519840
+                        },
+                        {
+                            "ComponentId": 16873418975065399752,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7821586283804727321,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7821586283804727321]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7821586283804727321,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {},
+                                    "Value": {}
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1448891890
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A0F6C3DA-701E-5066-BDAB-96E9812D869C}"
+                                            },
+                                            "assetHint": "assets/environment/donut/donut_icing.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1770509215
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3835058C-190B-576D-B6F3-CAC7A83D4921}"
+                                            },
+                                            "assetHint": "assets/environment/donut/donut_donut.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{3835058C-190B-576D-B6F3-CAC7A83D4921}"
+                                },
+                                "assetHint": "assets/environment/donut/donut_donut.azmaterial"
+                            }
+                        },
+                        {
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{A0F6C3DA-701E-5066-BDAB-96E9812D869C}"
+                                },
+                                "assetHint": "assets/environment/donut/donut_icing.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[9329815673306478353]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9329815673306478353
+                },
+                "Component_[9635902233553824689]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9635902233553824689
+                }
+            }
+        }
+    }
+}

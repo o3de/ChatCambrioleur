@@ -1,0 +1,34 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+            ],
+            "textureMap": "Assets/Environment/statue/Low_Low_BaseColor.jpg"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Assets/Environment/statue/Low_Low_Metallic.jpg"
+        },
+        "normal": {
+            "textureMap": "Assets/Environment/statue/Low_Low_Normal.jpg"
+        },
+        "roughness": {
+            "textureMap": "Assets/Environment/statue/Low_Low_Roughness.jpg"
+        }
+    }
+}

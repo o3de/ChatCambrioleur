@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Models/WallAndFloorPieces/ClayTexture/clay_floor_001_diff_1k.jpg"
+        },
+        "normal": {
+            "factor": 1.3799999952316284,
+            "textureMap": "Models/WallAndFloorPieces/ClayTexture/clay_floor_001_nor_dx_1k.jpg"
+        },
+        "parallax": {
+            "useTexture": false
+        },
+        "roughness": {
+            "textureMap": "Models/WallAndFloorPieces/ClayTexture/clay_floor_001_rough_1k.jpg"
+        }
+    }
+}

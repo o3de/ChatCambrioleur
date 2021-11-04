@@ -1,0 +1,29 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.597000002861023,
+                0.46351200342178347,
+                0.28439998626708987,
+                1.0
+            ]
+        },
+        "emissive": {
+            "color": [
+                0.0320897214114666,
+                0.365377277135849,
+                1.0,
+                1.0
+            ],
+            "enable": true,
+            "intensity": 4.559999942779541
+        },
+        "opacity": {
+            "factor": 1.0
+        }
+    }
+}

@@ -1,0 +1,201 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Wall",
+        "Components": {
+            "Component_[13435873867823075902]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13435873867823075902
+            },
+            "Component_[15284205995828465302]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15284205995828465302
+            },
+            "Component_[15333171201078416144]": {
+                "$type": "EditorLockComponent",
+                "Id": 15333171201078416144
+            },
+            "Component_[15426390174845489371]": {
+                "$type": "SelectionComponent",
+                "Id": 15426390174845489371
+            },
+            "Component_[17453700925768353327]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17453700925768353327
+            },
+            "Component_[17463889695247841259]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17463889695247841259
+            },
+            "Component_[5229662205227353895]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5229662205227353895
+            },
+            "Component_[6151186143162351810]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6151186143162351810,
+                "Parent Entity": "",
+                "Cached World Transform Parent": ""
+            },
+            "Component_[9192580066878138485]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9192580066878138485
+            },
+            "Component_[9308691266366478917]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9308691266366478917
+            },
+            "Component_[9382687628310518550]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9382687628310518550
+            }
+        },
+        "IsDependencyReady": true
+    },
+    "Entities": {
+        "Entity_[67609583043417]": {
+            "Id": "Entity_[67609583043417]",
+            "Name": "Wall",
+            "Components": {
+                "Component_[1142664349274577043]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1142664349274577043
+                },
+                "Component_[12085909421049988560]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12085909421049988560
+                },
+                "Component_[14645966616514062311]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14645966616514062311,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{1EDA2053-6350-5E54-B365-CB14C67066BC}"
+                                        },
+                                        "assetHint": "models/wallandfloorpieces/floor_floor_mtrl.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "defaultMaterialSlot": {
+                        "materialAsset": {
+                            "assetId": {
+                                "guid": "{1EDA2053-6350-5E54-B365-CB14C67066BC}"
+                            },
+                            "assetHint": "models/wallandfloorpieces/floor_floor_mtrl.azmaterial"
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialAssetId": {
+                                    "guid": "{F772AD2A-712C-5CFD-BEF5-F999CF6481DB}",
+                                    "subId": 3527480290
+                                }
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialAssetId": {
+                                        "guid": "{F772AD2A-712C-5CFD-BEF5-F999CF6481DB}",
+                                        "subId": 3527480290
+                                    }
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[15141956598326484780]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15141956598326484780
+                },
+                "Component_[3542258118028641232]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3542258118028641232
+                },
+                "Component_[3674478684669853065]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3674478684669853065,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5384036104594064219
+                        },
+                        {
+                            "ComponentId": 5758010140556618849,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14645966616514062311,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4602246503196382442]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4602246503196382442
+                },
+                "Component_[5384036104594064219]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5384036104594064219,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.15409600734710694
+                    },
+                    "Cached World Transform": {
+                        "Translation": [
+                            -12.34450912475586,
+                            -8.853742599487305,
+                            1.878066062927246
+                        ],
+                        "Rotation": [
+                            0.7071056365966797,
+                            0.0006006914773024619,
+                            0.0013821091270074249,
+                            0.707106351852417
+                        ],
+                        "Scale": 0.15409600734710694
+                    },
+                    "Cached World Transform Parent": "ContainerEntity"
+                },
+                "Component_[5387719957669897598]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5387719957669897598
+                },
+                "Component_[5758010140556618849]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5758010140556618849,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F772AD2A-712C-5CFD-BEF5-F999CF6481DB}",
+                                    "subId": 273012270
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "models/wallandfloorpieces/floor.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9598255057319994064]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9598255057319994064
+                },
+                "Component_[9874844668035378970]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9874844668035378970
+                }
+            },
+            "IsDependencyReady": true
+        }
+    }
+}

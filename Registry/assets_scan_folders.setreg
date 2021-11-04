@@ -1,0 +1,14 @@
+{
+    "Amazon":
+    {
+        "GentlecatThief.Assets":
+        {
+            "SourcePaths":
+            [
+                "Assets",
+                "ShaderLib",
+                "Shaders"
+            ]
+        }
+    }
+}

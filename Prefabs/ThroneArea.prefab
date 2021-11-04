@@ -1,0 +1,484 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ThroneArea",
+        "Components": {
+            "Component_[10157205320163789263]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10157205320163789263
+            },
+            "Component_[11246810099869743085]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11246810099869743085
+            },
+            "Component_[11903777311097663237]": {
+                "$type": "SelectionComponent",
+                "Id": 11903777311097663237
+            },
+            "Component_[11978375541466451302]": {
+                "$type": "EditorLockComponent",
+                "Id": 11978375541466451302
+            },
+            "Component_[13214646019350032196]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13214646019350032196
+            },
+            "Component_[16111060681545529279]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16111060681545529279
+            },
+            "Component_[3491531671350994316]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3491531671350994316
+            },
+            "Component_[3572586947461647911]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3572586947461647911
+            },
+            "Component_[4920683409798473337]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4920683409798473337
+            },
+            "Component_[8197413886647918236]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 8197413886647918236,
+                "Parent Entity": ""
+            },
+            "Component_[8409197969062204263]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8409197969062204263
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[110151325144503]": {
+            "Id": "Entity_[110151325144503]",
+            "Name": "CameraSwitch_ThroneArea",
+            "Components": {
+                "Component_[11460807640000010877]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11460807640000010877
+                },
+                "Component_[11547223637427189808]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11547223637427189808
+                },
+                "Component_[13608507252407535771]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13608507252407535771
+                },
+                "Component_[14923973182966714723]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14923973182966714723
+                },
+                "Component_[15129341435263654502]": {
+                    "$type": "EditorShapeColliderComponent",
+                    "Id": 15129341435263654502,
+                    "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 2
+                        },
+                        "CollisionGroupId": {
+                            "GroupId": "{14387429-5AC8-495B-AE15-8C13CA8BF4B2}"
+                        },
+                        "Trigger": true,
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfigs": [
+                        {
+                            "$type": "BoxShapeConfiguration",
+                            "Configuration": [
+                                12.0,
+                                17.0,
+                                6.0
+                            ]
+                        }
+                    ]
+                },
+                "Component_[164734317612445342]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 164734317612445342
+                },
+                "Component_[18415592624499388465]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 18415592624499388465
+                },
+                "Component_[2074110345208052306]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2074110345208052306
+                },
+                "Component_[369412400073329595]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 369412400073329595
+                },
+                "Component_[4030643957300855859]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4030643957300855859
+                },
+                "Component_[5530826786907510578]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 5530826786907510578,
+                    "m_name": "CameraSwitcher",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{720CB7D5-FAF9-5718-9E35-101D87C6BEE9}"
+                            },
+                            "assetHint": "scriptcanvas/cameraswitcher.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{720CB7D5-FAF9-5718-9E35-101D87C6BEE9}"
+                            },
+                            "assetHint": "scriptcanvas/cameraswitcher.scriptcanvas"
+                        },
+                        "variables": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 1.0,
+                                    "label": "Number"
+                                },
+                                "VariableId": {
+                                    "m_id": "{6E6FF8A2-7A25-4339-8148-CFD73F803462}"
+                                },
+                                "VariableName": "Speed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 5
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "value": "",
+                                    "label": "String"
+                                },
+                                "VariableId": {
+                                    "m_id": "{CFA3C395-8391-4839-9358-27FC2C3DA823}"
+                                },
+                                "VariableName": "CameraToTriggerTo",
+                                "InitialValueSource": 1
+                            }
+                        ],
+                        "overrides": [
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 3
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "double",
+                                    "value": 1.0,
+                                    "label": "Number"
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{6E6FF8A2-7A25-4339-8148-CFD73F803462}"
+                                },
+                                "VariableName": "Speed",
+                                "InitialValueSource": 1
+                            },
+                            {
+                                "Datum": {
+                                    "scriptCanvasType": {
+                                        "m_type": 5
+                                    },
+                                    "isNullPointer": false,
+                                    "$type": "{03AAAB3F-5C47-5A66-9EBC-D5FA4DB353C9} AZStd::string",
+                                    "value": "Camera_ThroneArea",
+                                    "label": "String"
+                                },
+                                "InputControlVisibility": {
+                                    "Value": 850104567
+                                },
+                                "VariableId": {
+                                    "m_id": "{CFA3C395-8391-4839-9358-27FC2C3DA823}"
+                                },
+                                "VariableName": "CameraToTriggerTo",
+                                "InitialValueSource": 1
+                            }
+                        ]
+                    }
+                },
+                "Component_[6874571295497464613]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6874571295497464613,
+                    "Parent Entity": "Entity_[96274285811127]",
+                    "Transform Data": {
+                        "Translate": [
+                            7.733979225158691,
+                            -10.850000381469727,
+                            -16.218753814697266
+                        ]
+                    }
+                },
+                "Component_[727158447342157934]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 727158447342157934,
+                    "ShapeColor": [
+                        0.6784313917160034,
+                        0.16078431904315948,
+                        0.8470588326454163
+                    ],
+                    "BoxShape": {
+                        "Configuration": {
+                            "DrawColor": [
+                                0.6784313917160034,
+                                0.16078431904315948,
+                                0.8470588326454163
+                            ],
+                            "Dimensions": [
+                                12.0,
+                                17.0,
+                                6.0
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "Entity_[185680475527186]": {
+            "Id": "Entity_[185680475527186]",
+            "Name": "SouthWallCollider",
+            "Components": {
+                "Component_[11941932295230013472]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11941932295230013472
+                },
+                "Component_[1537904320700224987]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1537904320700224987
+                },
+                "Component_[16785843461080375128]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16785843461080375128
+                },
+                "Component_[2005842182881730642]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2005842182881730642
+                },
+                "Component_[202830358200425673]": {
+                    "$type": "SelectionComponent",
+                    "Id": 202830358200425673
+                },
+                "Component_[363322407515461704]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 363322407515461704,
+                    "Parent Entity": "Entity_[96274285811127]",
+                    "Transform Data": {
+                        "Translate": [
+                            7.718787670135498,
+                            -16.41488265991211,
+                            -16.150981903076172
+                        ]
+                    }
+                },
+                "Component_[4840102660529759653]": {
+                    "$type": "EditorShapeColliderComponent",
+                    "Id": 4840102660529759653,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfigs": [
+                        {
+                            "$type": "BoxShapeConfiguration",
+                            "Configuration": [
+                                12.399996757507324,
+                                5.741554260253906,
+                                12.400001525878906
+                            ]
+                        }
+                    ]
+                },
+                "Component_[5192353635570765067]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5192353635570765067
+                },
+                "Component_[5697212050576395775]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5697212050576395775
+                },
+                "Component_[6042070180480163830]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6042070180480163830
+                },
+                "Component_[809878608685245653]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 809878608685245653,
+                    "BoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                12.399996757507324,
+                                5.741554260253906,
+                                12.400001525878906
+                            ]
+                        }
+                    }
+                },
+                "Component_[8588352527343399437]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8588352527343399437
+                }
+            }
+        },
+        "Entity_[96274285811127]": {
+            "Id": "Entity_[96274285811127]",
+            "Name": "ThroneArea",
+            "Components": {
+                "Component_[10002722125594406185]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10002722125594406185
+                },
+                "Component_[10302206759136821615]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10302206759136821615
+                },
+                "Component_[10832693336629586313]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10832693336629586313
+                },
+                "Component_[10927055038741964996]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10927055038741964996,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5934705000315092101
+                        }
+                    ]
+                },
+                "Component_[2978768216239218746]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2978768216239218746
+                },
+                "Component_[5348564201999411224]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5348564201999411224
+                },
+                "Component_[5934705000315092101]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5934705000315092101,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[7816199602954713732]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7816199602954713732
+                },
+                "Component_[7954682115178622350]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7954682115178622350
+                },
+                "Component_[9262883149047287959]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9262883149047287959
+                }
+            }
+        },
+        "Entity_[97532711228855]": {
+            "Id": "Entity_[97532711228855]",
+            "Name": "SouthWallCollider",
+            "Components": {
+                "Component_[11941932295230013472]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11941932295230013472
+                },
+                "Component_[1537904320700224987]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1537904320700224987
+                },
+                "Component_[16785843461080375128]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16785843461080375128
+                },
+                "Component_[2005842182881730642]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2005842182881730642
+                },
+                "Component_[202830358200425673]": {
+                    "$type": "SelectionComponent",
+                    "Id": 202830358200425673
+                },
+                "Component_[363322407515461704]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 363322407515461704,
+                    "Parent Entity": "Entity_[96274285811127]",
+                    "Transform Data": {
+                        "Translate": [
+                            7.718787670135498,
+                            -19.76713752746582,
+                            -12.750982284545898
+                        ]
+                    }
+                },
+                "Component_[4840102660529759653]": {
+                    "$type": "EditorShapeColliderComponent",
+                    "Id": 4840102660529759653,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfigs": [
+                        {
+                            "$type": "BoxShapeConfiguration",
+                            "Configuration": [
+                                38.599998474121094,
+                                2.4000000953674316,
+                                15.80000114440918
+                            ]
+                        }
+                    ]
+                },
+                "Component_[5192353635570765067]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5192353635570765067
+                },
+                "Component_[5697212050576395775]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5697212050576395775
+                },
+                "Component_[6042070180480163830]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6042070180480163830
+                },
+                "Component_[809878608685245653]": {
+                    "$type": "EditorBoxShapeComponent",
+                    "Id": 809878608685245653,
+                    "BoxShape": {
+                        "Configuration": {
+                            "Dimensions": [
+                                38.599998474121094,
+                                2.4000000953674316,
+                                15.80000114440918
+                            ]
+                        }
+                    }
+                },
+                "Component_[8588352527343399437]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8588352527343399437
+                }
+            }
+        }
+    }
+}

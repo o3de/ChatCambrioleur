@@ -1,0 +1,132 @@
+{
+    "Amazon": {
+        "Gems": {
+            "PhysX": {
+                "PhysXSystemConfiguration": {
+                    "CollisionConfig": {
+                        "Layers": {
+                            "LayerNames": [
+                                "Default",
+                                "Player",
+                                "PlayerTrigger",
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                "TouchBend"
+                            ]
+                        },
+                        "Groups": {
+                            "GroupPresets": [
+                                {
+                                    "Name": "All",
+                                    "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{46F197F5-9CEB-426B-8113-9D2E1E22DBE1}"
+                                    },
+                                    "Name": "None",
+                                    "Group": {
+                                        "Mask": 0
+                                    },
+                                    "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{070F99DD-C08C-42EC-878E-C6D8B6C36369}"
+                                    },
+                                    "Name": "All_NoTouchBend",
+                                    "Group": {
+                                        "Mask": 9223372036854775807
+                                    },
+                                    "ReadOnly": true
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{14387429-5AC8-495B-AE15-8C13CA8BF4B2}"
+                                    },
+                                    "Name": "CameraTrigger",
+                                    "Group": {
+                                        "Mask": 9223372036854775802
+                                    }
+                                },
+                                {
+                                    "Id": {
+                                        "GroupId": "{CBF42890-AA83-4F65-8E25-34BC214FC051}"
+                                    },
+                                    "Name": "GroundedChecks",
+                                    "Group": {
+                                        "Mask": 18446744073709551611
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "MaterialLibrary": {
+                        "assetId": {
+                            "guid": "{3A055A3F-8CB7-5FEE-B437-EB365FACD0D4}"
+                        },
+                        "assetHint": "surfacetypemateriallibrary.physmaterial"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Models/WallAndFloorPieces/FloorTexture/Floor_Floor_MTRL_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Models/WallAndFloorPieces/FloorTexture/Floor_Floor_MTRL_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Models/WallAndFloorPieces/FloorTexture/Floor_Floor_MTRL_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "textureMap": "Models/WallAndFloorPieces/FloorTexture/Floor_Floor_MTRL_Roughness.png"
+        }
+    }
+}

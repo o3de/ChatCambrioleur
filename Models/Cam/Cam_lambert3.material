@@ -1,0 +1,31 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.800000011920929,
+                0.800000011920929,
+                0.800000011920929,
+                1.0
+            ],
+            "textureMap": "Models/Cam/Cat Burglar_Cat_AlbedoTransparency.jpg"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "Models/Cam/Cat Burglar_Cat_Normal.jpg",
+        },
+        "opacity": {
+            "factor": 1.0
+        }
+    }
+}

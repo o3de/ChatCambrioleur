@@ -1,0 +1,25 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "emissive": {
+            "color": [
+                0.0313725508749485,
+                0.364705890417099,
+                1.0,
+                1.0
+            ],
+            "enable": true,
+            "intensity": 4.78000020980835
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "parallax": {
+            "factor": 0.04899999871850014,
+            "textureMap": "Assets/Environment/sword/scratches.jpg"
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.03439383581280708,
+                0.03439383581280708,
+                0.03439383581280708,
+                1.0
+            ],
+            "textureMap": "Objects/Lucy/Lucy_Stone_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "normal": {
+            "textureMap": "Objects/Lucy/Lucy_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "factor": 0.6600000262260437
+        }
+    }
+}

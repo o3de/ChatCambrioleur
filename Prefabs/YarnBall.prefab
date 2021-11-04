@@ -1,0 +1,301 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "YarnBall",
+        "Components": {
+            "Component_[10832065598514338271]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10832065598514338271
+            },
+            "Component_[11977536417061674756]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11977536417061674756,
+                "Parent Entity": ""
+            },
+            "Component_[14186187247635695558]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14186187247635695558
+            },
+            "Component_[14716658475794247658]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 14716658475794247658
+            },
+            "Component_[14905031996290395104]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14905031996290395104
+            },
+            "Component_[15031762311348438050]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15031762311348438050
+            },
+            "Component_[15919835500760439528]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15919835500760439528
+            },
+            "Component_[16953315258171576736]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16953315258171576736
+            },
+            "Component_[17264741638928522322]": {
+                "$type": "SelectionComponent",
+                "Id": 17264741638928522322
+            },
+            "Component_[2890036207754543967]": {
+                "$type": "EditorLockComponent",
+                "Id": 2890036207754543967
+            },
+            "Component_[5894860013682243143]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5894860013682243143
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[19276228426176]": {
+            "Id": "Entity_[19276228426176]",
+            "Name": "YarnBall",
+            "Components": {
+                "Component_[11267437595629879234]": {
+                    "$type": "EditorSphereShapeComponent",
+                    "Id": 11267437595629879234,
+                    "ShapeColor": [
+                        0.7568628191947937,
+                        0.41568630933761597,
+                        0.003921600058674812,
+                        1.0
+                    ],
+                    "SphereShape": {
+                        "Configuration": {
+                            "Radius": 0.20000000298023224
+                        }
+                    }
+                },
+                "Component_[13122430106465263442]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13122430106465263442
+                },
+                "Component_[13138024960385481838]": {
+                    "$type": "AZ::Render::EditorAreaLightComponent",
+                    "Id": 13138024960385481838,
+                    "Controller": {
+                        "Configuration": {
+                            "LightType": 1,
+                            "Color": [
+                                0.7568628191947937,
+                                0.41568630933761597,
+                                0.003921600058674812
+                            ],
+                            "Intensity": 24.0,
+                            "AttenuationRadiusMode": 0,
+                            "AttenuationRadius": 3.0
+                        }
+                    }
+                },
+                "Component_[15409570454421946475]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15409570454421946475,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{9A529B53-768F-59E4-AC71-9D3B5F796DBE}"
+                                        },
+                                        "assetHint": "assets/environment/yarnball/yarnball_v_decal2.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{D421F6BD-5109-5A93-960A-8E6B93AB53EB}"
+                                },
+                                "assetHint": "assets/environment/yarnball/yarnball_v_decal1.azmaterial"
+                            }
+                        },
+                        {
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{9A529B53-768F-59E4-AC71-9D3B5F796DBE}"
+                                },
+                                "assetHint": "assets/environment/yarnball/yarnball_v_decal2.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[15825079905866012866]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15825079905866012866,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{99E85309-0058-5524-92C4-AAB850470685}",
+                                    "subId": 274915362
+                                },
+                                "assetHint": "assets/environment/yarnball/yarnball.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[16104113671060546322]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16104113671060546322
+                },
+                "Component_[188852510542598562]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 188852510542598562,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "Position": [
+                            0.0,
+                            0.4000000059604645,
+                            0.0
+                        ],
+                        "Rotation": [
+                            -0.026176946237683296,
+                            0.0,
+                            0.0,
+                            0.9996573328971863
+                        ],
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                    "subId": 1801833720
+                                },
+                                "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
+                            },
+                            "Configuration": {
+                                "Scale": [
+                                    1.5,
+                                    1.5,
+                                    1.5
+                                ],
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{1EE46427-D1C2-5698-B30D-B4CCF46B15CD}",
+                                        "subId": 1801833720
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "objects/_primitives/_sphere_1x1.pxmesh"
+                                },
+                                "AssetScale": [
+                                    0.4000000059604645,
+                                    0.4000000059604645,
+                                    0.4000000059604645
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Component_[3029208150765748850]": {
+                    "$type": "SelectionComponent",
+                    "Id": 3029208150765748850
+                },
+                "Component_[4685985242250732872]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4685985242250732872,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9324417414092991179
+                        },
+                        {
+                            "ComponentId": 15825079905866012866,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15409570454421946475,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5867627875771495102]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5867627875771495102
+                },
+                "Component_[6446890543029178691]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6446890543029178691
+                },
+                "Component_[8631069898224745195]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8631069898224745195
+                },
+                "Component_[8665190218417094752]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8665190218417094752
+                },
+                "Component_[9063921027581273788]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 9063921027581273788,
+                    "m_name": "YarnBall",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{BBA320B7-F7FA-5DE8-828D-ABD0D1A1B670}"
+                            },
+                            "assetHint": "scriptcanvas/yarnball.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{BBA320B7-F7FA-5DE8-828D-ABD0D1A1B670}"
+                            },
+                            "assetHint": "scriptcanvas/yarnball.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[9324417414092991179]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9324417414092991179,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            -0.19999998807907104
+                        ],
+                        "Rotate": [
+                            89.99994659423828,
+                            0.0,
+                            0.0
+                        ],
+                        "UniformScale": 1.5
+                    }
+                },
+                "Component_[9637168492155153452]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9637168492155153452
+                }
+            }
+        }
+    }
+}

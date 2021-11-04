@@ -1,0 +1,132 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "PostFX",
+        "Components": {
+            "Component_[10677907982516431934]": {
+                "$type": "SelectionComponent",
+                "Id": 10677907982516431934
+            },
+            "Component_[14202144127576340566]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14202144127576340566
+            },
+            "Component_[14378463728870895518]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14378463728870895518
+            },
+            "Component_[14822388063843104020]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14822388063843104020
+            },
+            "Component_[16284435551318614292]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16284435551318614292
+            },
+            "Component_[16661568922535759006]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 16661568922535759006
+            },
+            "Component_[3958191154174550301]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3958191154174550301,
+                "Parent Entity": "",
+                "Cached World Transform Parent": ""
+            },
+            "Component_[6437866488950220622]": {
+                "$type": "EditorLockComponent",
+                "Id": 6437866488950220622
+            },
+            "Component_[6618975657415463290]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6618975657415463290
+            },
+            "Component_[804828175263697941]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 804828175263697941
+            },
+            "Component_[8208725880439844299]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 8208725880439844299
+            }
+        },
+        "IsDependencyReady": true
+    },
+    "Entities": {
+        "Entity_[84201080163323]": {
+            "Id": "Entity_[84201080163323]",
+            "Name": "PostFX",
+            "Components": {
+                "Component_[10331025528185665156]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10331025528185665156
+                },
+                "Component_[11502598373874203027]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11502598373874203027
+                },
+                "Component_[11565165151069719260]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11565165151069719260
+                },
+                "Component_[13926515736792104559]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13926515736792104559
+                },
+                "Component_[16074752204594411770]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16074752204594411770
+                },
+                "Component_[714340536188370865]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 714340536188370865
+                },
+                "Component_[7347094232788373889]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7347094232788373889
+                },
+                "Component_[7655867526617440028]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7655867526617440028
+                },
+                "Component_[8614551860777916136]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8614551860777916136,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9968857686835687624
+                        }
+                    ]
+                },
+                "Component_[9968857686835687624]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9968857686835687624,
+                    "Parent Entity": "ContainerEntity",
+                    "Cached World Transform": {
+                        "Translation": [
+                            10.473902702331545,
+                            6.328334808349609,
+                            0.9861361980438232
+                        ]
+                    },
+                    "Cached World Transform Parent": "ContainerEntity"
+                },
+                "Component_[4865886952641100441]": {
+                    "$type": "AZ::Render::EditorBloomComponent",
+                    "Id": 4865886952641100441,
+                    "Controller": {
+                        "Configuration": {
+                            "Intensity": 0.75,
+                            "Enabled": true
+                        }
+                    }
+                },
+                "Component_[9537878597571758276]": {
+                    "$type": "AZ::Render::EditorPostFxLayerComponent",
+                    "Id": 9537878597571758276
+                }
+            },
+            "IsDependencyReady": true
+        }
+    }
+}

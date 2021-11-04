@@ -1,0 +1,35 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{6079E203-3D92-55CA-A049-5DD0A3D4ACF8}",
+            "name": "Floor",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Floor"
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Floor",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Floor"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{0CCF6CF8-889A-5794-A604-FCFB68D4AD77}"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Assets/Environment/YarnBall/yarnstrand.png"
+        },
+        "emissive": {
+            "color": [
+                0.7568627595901489,
+                0.4156862795352936,
+                0.003921568859368563,
+                1.0
+            ],
+            "enable": true
+        },
+        "opacity": {
+            "factor": 1.0
+        }
+    }
+}

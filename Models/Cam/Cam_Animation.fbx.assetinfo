@@ -1,0 +1,150 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "Cam_Animation",
+            "selectedRootBone": "RootNode.Root",
+            "id": "{2D0DDB40-3698-5942-B267-E68D25D5B51B}"
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{18E473CB-355C-5DF0-A193-CBBD603CA65C}",
+            "name": "Cam_Animation",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cat",
+                    "RootNode.Root",
+                    "RootNode.nurbsCircle1",
+                    "RootNode.nurbsCircle2",
+                    "RootNode.nurbsCircle3",
+                    "RootNode.Root.Pelvis",
+                    "RootNode.nurbsCircle1.ikHandle1",
+                    "RootNode.nurbsCircle2.ikHandle2",
+                    "RootNode.Root.Pelvis.L_Hip",
+                    "RootNode.Root.Pelvis.R_Hip",
+                    "RootNode.Root.Pelvis.SP1",
+                    "RootNode.Root.Pelvis.L_Hip.L_Knee",
+                    "RootNode.Root.Pelvis.R_Hip.R_Knee",
+                    "RootNode.Root.Pelvis.SP1.SP2",
+                    "RootNode.Root.Pelvis.L_Hip.L_Knee.L_Ankle",
+                    "RootNode.Root.Pelvis.R_Hip.R_Knee.R_Ankle",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav",
+                    "RootNode.Root.Pelvis.L_Hip.L_Knee.L_Ankle.L_Foot",
+                    "RootNode.Root.Pelvis.R_Hip.R_Knee.R_Ankle.R_Foot",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder",
+                    "RootNode.Root.Pelvis.L_Hip.L_Knee.L_Ankle.L_Foot.L_Toe",
+                    "RootNode.Root.Pelvis.R_Hip.R_Knee.R_Ankle.R_Foot.R_Toe",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head.L_B_Ear",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head.joint18",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head.R_B_Ear",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head.L_B_Ear.L_T_Ear",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head.R_B_Ear.R_T_Ear",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist.L_Palm",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist.R_Palm",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist.L_Palm.L_Fingers",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist.L_Palm.L_Thumb",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist.R_Palm.R_Fingers",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist.R_Palm.R_Thumb",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist.L_Palm.L_Fingers.L_FingerNode",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist.L_Palm.L_Thumb.L_ThumbNode",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist.R_Palm.R_Fingers.R_FingerNode",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist.R_Palm.R_Thumb.R_ThumbNode"
+                ]
+            }
+        },
+        {
+            "$type": "MotionGroup",
+            "name": "Walk",
+            "selectedRootBone": "RootNode.Root",
+            "id": "{0219EF05-0B96-5771-AA09-6ECD1E05364F}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    },
+                    {
+                        "$type": "MotionRangeRule",
+                        "startFrame": 1,
+                        "endFrame": 24
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Cam_Animation",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Cat",
+                    "RootNode.Root",
+                    "RootNode.nurbsCircle1",
+                    "RootNode.nurbsCircle2",
+                    "RootNode.nurbsCircle3",
+                    "RootNode.Root.Pelvis",
+                    "RootNode.nurbsCircle1.ikHandle1",
+                    "RootNode.nurbsCircle2.ikHandle2",
+                    "RootNode.Root.Pelvis.L_Hip",
+                    "RootNode.Root.Pelvis.R_Hip",
+                    "RootNode.Root.Pelvis.SP1",
+                    "RootNode.Root.Pelvis.L_Hip.L_Knee",
+                    "RootNode.Root.Pelvis.R_Hip.R_Knee",
+                    "RootNode.Root.Pelvis.SP1.SP2",
+                    "RootNode.Root.Pelvis.L_Hip.L_Knee.L_Ankle",
+                    "RootNode.Root.Pelvis.R_Hip.R_Knee.R_Ankle",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav",
+                    "RootNode.Root.Pelvis.L_Hip.L_Knee.L_Ankle.L_Foot",
+                    "RootNode.Root.Pelvis.R_Hip.R_Knee.R_Ankle.R_Foot",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder",
+                    "RootNode.Root.Pelvis.L_Hip.L_Knee.L_Ankle.L_Foot.L_Toe",
+                    "RootNode.Root.Pelvis.R_Hip.R_Knee.R_Ankle.R_Foot.R_Toe",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head.L_B_Ear",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head.joint18",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head.R_B_Ear",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head.L_B_Ear.L_T_Ear",
+                    "RootNode.Root.Pelvis.SP1.SP2.Neck.Head.R_B_Ear.R_T_Ear",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist.L_Palm",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist.R_Palm",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist.L_Palm.L_Fingers",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist.L_Palm.L_Thumb",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist.R_Palm.R_Fingers",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist.R_Palm.R_Thumb",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist.L_Palm.L_Fingers.L_FingerNode",
+                    "RootNode.Root.Pelvis.SP1.SP2.L_Clav.L_Shoulder.L_Elbow.L_Wrist.L_Palm.L_Thumb.L_ThumbNode",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist.R_Palm.R_Fingers.R_FingerNode",
+                    "RootNode.Root.Pelvis.SP1.SP2.R_Clav.R_Shoulder.R_Elbow.R_Wrist.R_Palm.R_Thumb.R_ThumbNode"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "SkinRule"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{8187BE07-4C30-510A-8312-D8B246C35FDF}"
+        }
+    ]
+}

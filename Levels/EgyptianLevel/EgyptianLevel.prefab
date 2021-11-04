@@ -1,0 +1,365 @@
+{
+    "ContainerEntity": {
+        "Id": "Entity_[1146574390643]",
+        "Name": "Level",
+        "Components": {
+            "Component_[10641544592923449938]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10641544592923449938
+            },
+            "Component_[12039882709170782873]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12039882709170782873
+            },
+            "Component_[12265484671603697631]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12265484671603697631
+            },
+            "Component_[14126657869720434043]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14126657869720434043
+            },
+            "Component_[15230859088967841193]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15230859088967841193,
+                "Parent Entity": ""
+            },
+            "Component_[16239496886950819870]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16239496886950819870
+            },
+            "Component_[5688118765544765547]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5688118765544765547
+            },
+            "Component_[6545738857812235305]": {
+                "$type": "SelectionComponent",
+                "Id": 6545738857812235305
+            },
+            "Component_[7247035804068349658]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7247035804068349658
+            },
+            "Component_[9307224322037797205]": {
+                "$type": "EditorLockComponent",
+                "Id": 9307224322037797205
+            },
+            "Component_[9562516168917670048]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9562516168917670048
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[31815817030114]": {
+            "Id": "Entity_[31815817030114]",
+            "Name": "Camera",
+            "Components": {
+                "Component_[11895140916889160460]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11895140916889160460
+                },
+                "Component_[16880285896855930892]": {
+                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
+                    "Id": 16880285896855930892,
+                    "Controller": {
+                        "Configuration": {
+                            "Field of View": 55.00005340576172,
+                            "EditorEntityId": 10044181078359169965
+                        }
+                    }
+                },
+                "Component_[17187464423780271193]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17187464423780271193
+                },
+                "Component_[17495696818315413311]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17495696818315413311
+                },
+                "Component_[18086214374043522055]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 18086214374043522055,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            3.3687784671783447,
+                            32.044620513916016,
+                            3.984060049057007
+                        ],
+                        "Rotate": [
+                            4.500636577606201,
+                            1.2330081462860107,
+                            -164.7101593017578
+                        ]
+                    }
+                },
+                "Component_[18387556550380114975]": {
+                    "$type": "SelectionComponent",
+                    "Id": 18387556550380114975
+                },
+                "Component_[2654521436129313160]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2654521436129313160
+                },
+                "Component_[5265045084611556958]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5265045084611556958
+                },
+                "Component_[7169798125182238623]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7169798125182238623
+                },
+                "Component_[8866210352157164042]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8866210352157164042
+                },
+                "Component_[9129253381063760879]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9129253381063760879
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[105941532141070]": {
+            "Source": "Prefabs/FirstArea.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[4472413085369894593]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[4472413085369894593]/Transform Data",
+                    "value": {
+                        "Translate": [
+                            -4.446404457092285,
+                            38.97459030151367,
+                            -7.17800760269165
+                        ]
+                    }
+                }
+            ]
+        },
+        "Instance_[120046204741134]": {
+            "Source": "Prefabs/WestNook.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16273468289606722935]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                }
+            ]
+        },
+        "Instance_[12939175513500]": {
+            "Source": "Prefabs/Environment.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11476937923264291933]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[22253510500085]": {
+            "Source": "Prefabs/MainMenu.prefab",
+            "Patches": [
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[1216683151632789831]/VisibilityFlag"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[15240930468554634341]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[15240930468554634341]/Transform Data"
+                }
+            ]
+        },
+        "Instance_[23232763043573]": {
+            "Source": "Prefabs/Gameplay.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9712223945444732857]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[9712223945444732857]/Transform Data",
+                    "value": {
+                        "Translate": [
+                            4.006086826324463,
+                            29.52060508728028,
+                            2.5928759574890137
+                        ]
+                    }
+                }
+            ]
+        },
+        "Instance_[3046207594011]": {
+            "Source": "Prefabs/PlayerSpawnPoint.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16818942642090728628]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[16818942642090728628]/Transform Data",
+                    "value": {
+                        "Translate": [
+                            9.7097806930542,
+                            22.5861759185791,
+                            2.539461612701416
+                        ]
+                    }
+                }
+            ]
+        },
+        "Instance_[5078520161806]": {
+            "Source": "Prefabs/CameraSetup.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[6816880181088863093]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[6816880181088863093]/Transform Data"
+                }
+            ]
+        },
+        "Instance_[59165043320334]": {
+            "Source": "Prefabs/Puzzle.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7983405944309314988]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[7983405944309314988]/Transform Data"
+                }
+            ]
+        },
+        "Instance_[6160851920398]": {
+            "Source": "Prefabs/StartingArea.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2156435076901822203]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "remove",
+                    "path": "/ContainerEntity/Components/Component_[2156435076901822203]/Transform Data"
+                }
+            ]
+        },
+        "Instance_[74308511028528]": {
+            "Source": "Prefabs/Top.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2891833226348588311]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[2891833226348588311]/Transform Data",
+                    "value": {
+                        "Translate": [
+                            23.94809341430664,
+                            5.419681549072266,
+                            6.20440673828125
+                        ]
+                    }
+                }
+            ]
+        },
+        "Instance_[93306463409591]": {
+            "Source": "Prefabs/NorthEast.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12976551834057869629]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[12976551834057869629]/Transform Data",
+                    "value": {
+                        "Translate": [
+                            -17.599559783935547,
+                            16.08711624145508,
+                            1.3548288345336916
+                        ]
+                    }
+                }
+            ]
+        },
+        "Instance_[96175390750642]": {
+            "Source": "Prefabs/NorthWest.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8776312638353742708]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "add",
+                    "path": "/ContainerEntity/Components/Component_[8776312638353742708]/Transform Data",
+                    "value": {
+                        "Translate": [
+                            19.86767578125,
+                            13.06476593017578,
+                            -0.5203456878662109
+                        ]
+                    }
+                }
+            ]
+        },
+        "Instance_[96278580778423]": {
+            "Source": "Prefabs/ThroneArea.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8197413886647918236]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8197413886647918236]/Transform Data/Translate/0",
+                    "value": -3.065192222595215
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8197413886647918236]/Transform Data/Translate/1",
+                    "value": 8.84172248840332
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[8197413886647918236]/Transform Data/Translate/2",
+                    "value": 20.272974014282227
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
+                }
+            ]
+        }
+    }
+}

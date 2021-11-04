@@ -1,0 +1,143 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Gameplay",
+        "Components": {
+            "Component_[10012816808884891547]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10012816808884891547
+            },
+            "Component_[12931858314745730532]": {
+                "$type": "EditorLockComponent",
+                "Id": 12931858314745730532
+            },
+            "Component_[14344314383143331613]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14344314383143331613
+            },
+            "Component_[15661271492872527407]": {
+                "$type": "SelectionComponent",
+                "Id": 15661271492872527407
+            },
+            "Component_[16971451354702672105]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 16971451354702672105
+            },
+            "Component_[3651470040421521760]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3651470040421521760
+            },
+            "Component_[3918852481668315825]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3918852481668315825
+            },
+            "Component_[4234450696853703356]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4234450696853703356
+            },
+            "Component_[5757335128597919121]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5757335128597919121
+            },
+            "Component_[9703743842770801456]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9703743842770801456
+            },
+            "Component_[9712223945444732857]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9712223945444732857,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[23228468076277]": {
+            "Id": "Entity_[23228468076277]",
+            "Name": "Gameplay",
+            "Components": {
+                "Component_[1048070406668885799]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1048070406668885799,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9752431583592668528
+                        },
+                        {
+                            "ComponentId": 7277428626847201788,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[13273373146472353403]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13273373146472353403
+                },
+                "Component_[16640653031716266008]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16640653031716266008
+                },
+                "Component_[5418846205635379886]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5418846205635379886
+                },
+                "Component_[572202005387191787]": {
+                    "$type": "SelectionComponent",
+                    "Id": 572202005387191787
+                },
+                "Component_[7277428626847201788]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 7277428626847201788,
+                    "m_name": "Gameplay",
+                    "m_assetHolder": {
+                        "m_asset": {
+                            "assetId": {
+                                "guid": "{2CB4BB8C-AF20-50F6-B2D4-9740943BE89A}"
+                            },
+                            "assetHint": "scriptcanvas/gameplay.scriptcanvas"
+                        }
+                    },
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "assetId": {
+                                "guid": "{2CB4BB8C-AF20-50F6-B2D4-9740943BE89A}"
+                            },
+                            "assetHint": "scriptcanvas/gameplay.scriptcanvas"
+                        }
+                    }
+                },
+                "Component_[780871327809253750]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 780871327809253750
+                },
+                "Component_[8522163167932345760]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8522163167932345760
+                },
+                "Component_[8979990161246687707]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8979990161246687707
+                },
+                "Component_[954325573837064529]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 954325573837064529,
+                    "m_template": {
+                        "$type": "UiCanvasAssetRefComponent",
+                        "CanvasAssetRef": {
+                            "AssetPath": "assets/ui/gamehud.uicanvas"
+                        }
+                    }
+                },
+                "Component_[9670162638911269976]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9670162638911269976
+                },
+                "Component_[9752431583592668528]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9752431583592668528,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}
