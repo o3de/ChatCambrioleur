@@ -22,7 +22,7 @@
             ]
         },
         "normal": {
-            "textureMap": "Models/Cam/Cat Burglar_Cat_Normal.jpg",
+            "textureMap": "Models/Cam/Cat Burglar_Cat_Normal.jpg"
         },
         "opacity": {
             "factor": 1.0
