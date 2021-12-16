@@ -59,8 +59,23 @@
     <ATLTrigger atl_name="mute_all" path="Default Work Unit/default events">
       <WwiseEvent wwise_name="mute_all"/>
     </ATLTrigger>
+    <ATLTrigger atl_name="play_level_start" path="Default Work Unit/SFX">
+      <WwiseEvent wwise_name="play_level_start"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="play_on_level_fail" path="Default Work Unit/SFX">
+      <WwiseEvent wwise_name="play_on_level_fail"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="play_on_level_success" path="Default Work Unit/SFX">
+      <WwiseEvent wwise_name="play_on_level_success"/>
+    </ATLTrigger>
     <ATLTrigger atl_name="play_on_mission_start" path="Default Work Unit/SFX">
       <WwiseEvent wwise_name="play_on_mission_start"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="play_on_puzzle_success" path="Default Work Unit/SFX">
+      <WwiseEvent wwise_name="play_on_puzzle_success"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="play_on_wordpuzzle_event_start" path="Default Work Unit/SFX">
+      <WwiseEvent wwise_name="play_on_wordpuzzle_event_start"/>
     </ATLTrigger>
     <ATLTrigger atl_name="play_yarn_ball_pickup" path="Default Work Unit/SFX">
       <WwiseEvent wwise_name="play_yarn_ball_pickup"/>

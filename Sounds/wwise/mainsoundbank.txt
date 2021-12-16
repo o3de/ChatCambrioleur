@@ -1,15 +1,27 @@
 Event	ID	Name			Wwise Object Path	Notes
+	531728480	play_on_wordpuzzle_event_start			\Default Work Unit\SFX\play_on_wordpuzzle_event_start	
+	602467900	play_on_puzzle_success			\Default Work Unit\SFX\play_on_puzzle_success	
+	1501423421	play_on_level_fail			\Default Work Unit\SFX\play_on_level_fail	
 	1739713018	mute_all			\Default Work Unit\default events\mute_all	
+	2682313633	play_level_start			\Default Work Unit\SFX\play_level_start	
 	3157443215	play_yarn_ball_pickup			\Default Work Unit\SFX\play_yarn_ball_pickup	
 	3350149075	lose_focus			\Default Work Unit\default events\lose_focus	
 	3359566395	play_on_mission_start			\Default Work Unit\SFX\play_on_mission_start	
+	3698728114	play_on_level_success			\Default Work Unit\SFX\play_on_level_success	
 	3888641552	do_nothing			\Default Work Unit\default events\do_nothing	
 	4003578643	unmute_all			\Default Work Unit\default events\unmute_all	
 	4280413250	get_focus			\Default Work Unit\default events\get_focus	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	328056968	catburglar-item-obtained-2	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-item-obtained-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\play-yarn-ball-pickup\catburglar-item-obtained-2		438096
+	342054298	catburglar-on-wordpuzzle-event-start	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-on-wordpuzzle-event-start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\catburglar-on-wordpuzzle-event-start		883868
 	376617303	catburglar-item-obtained-3	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-item-obtained-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\play-yarn-ball-pickup\catburglar-item-obtained-3		222316
+	463410661	narrator-level-start-announcement	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\narrator-level-start-announcement_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\narrator-level-start-announcement		2842636
+	476589957	catburglar-on-puzzle-success	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-on-puzzle-success_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\catburglar-on-puzzle-success		899280
+	510769686	catburglar-on-level-end	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-on-level-end_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\on-level-success\catburglar-on-level-end		1643768
+	590716617	narrator-on-level-end	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\narrator-on-level-end_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\on-level-success\narrator-on-level-end		1322968
+	764658650	narrator-on-level-fail	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\narrator-on-level-fail_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\on-level-fail\narrator-on-level-fail		861952
+	864816229	catburglar-on-game-failure	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-on-game-failure_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\on-level-fail\catburglar-on-game-failure		853480
 	908417878	catburglar-on-mission-start	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-on-mission-start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\catburglar-on-mission-start		703656
 	1021007364	catburglar-item-obtained-1	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-item-obtained-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\play-yarn-ball-pickup\catburglar-item-obtained-1		276652
 
