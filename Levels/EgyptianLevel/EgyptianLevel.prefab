@@ -162,6 +162,16 @@
                     "value": "../Entity_[1146574390643]"
                 },
                 {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[8669978021276]/Components/Component_[5855590796136709437]/Child Entity Order/3",
+                    "value": "Instance_[8755877367196]/ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[8669978021276]/Components/Component_[5855590796136709437]/Child Entity Order/4",
+                    "value": "Instance_[20251115729918]/ContainerEntity"
+                },
+                {
                     "op": "remove",
                     "path": "/LinkId"
                 }

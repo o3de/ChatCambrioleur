@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ATLConfig atl_name="generated_controls">
+  <AudioEnvironments/>
+  <AudioRTPCs>
+    <ATLRtpc atl_name="Acoustic_Banner" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Acoustic_Banner"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Anechoic" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Anechoic"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Brick" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Brick"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Carpet" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Carpet"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Concrete" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Concrete"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Cork_Tiles" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Cork_Tiles"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Curtains" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Curtains"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Drywall" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Drywall"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Fabric" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Fabric"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Mountain" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Mountain"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Tile" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Tile"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Wood" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Wood"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Wood_Bright" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Wood_Bright"/>
+    </ATLRtpc>
+    <ATLRtpc atl_name="Wood_Deep" path="Factory Acoustic Textures/Textures">
+      <WwiseRtpc wwise_name="Wood_Deep"/>
+    </ATLRtpc>
+  </AudioRTPCs>
+  <AudioSwitches/>
+  <AudioTriggers>
+    <ATLTrigger atl_name="do_nothing" path="Default Work Unit/default events">
+      <WwiseEvent wwise_name="do_nothing"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="get_focus" path="Default Work Unit/default events">
+      <WwiseEvent wwise_name="get_focus"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="lose_focus" path="Default Work Unit/default events">
+      <WwiseEvent wwise_name="lose_focus"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="mute_all" path="Default Work Unit/default events">
+      <WwiseEvent wwise_name="mute_all"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="play_on_mission_start" path="Default Work Unit/SFX">
+      <WwiseEvent wwise_name="play_on_mission_start"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="play_yarn_ball_pickup" path="Default Work Unit/SFX">
+      <WwiseEvent wwise_name="play_yarn_ball_pickup"/>
+    </ATLTrigger>
+    <ATLTrigger atl_name="unmute_all" path="Default Work Unit/default events">
+      <WwiseEvent wwise_name="unmute_all"/>
+    </ATLTrigger>
+  </AudioTriggers>
+  <AudioPreloads>
+    <ATLPreloadRequest atl_name="mainsoundbank" atl_type="AutoLoad" path="SoundBanks">
+      <WwiseFile wwise_name="mainsoundbank.bnk"/>
+    </ATLPreloadRequest>
+  </AudioPreloads>
+</ATLConfig>

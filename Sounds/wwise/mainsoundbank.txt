@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1739713018	mute_all			\Default Work Unit\default events\mute_all	
+	3157443215	play_yarn_ball_pickup			\Default Work Unit\SFX\play_yarn_ball_pickup	
+	3350149075	lose_focus			\Default Work Unit\default events\lose_focus	
+	3359566395	play_on_mission_start			\Default Work Unit\SFX\play_on_mission_start	
+	3888641552	do_nothing			\Default Work Unit\default events\do_nothing	
+	4003578643	unmute_all			\Default Work Unit\default events\unmute_all	
+	4280413250	get_focus			\Default Work Unit\default events\get_focus	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	328056968	catburglar-item-obtained-2	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-item-obtained-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\play-yarn-ball-pickup\catburglar-item-obtained-2		438096
+	376617303	catburglar-item-obtained-3	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-item-obtained-3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\play-yarn-ball-pickup\catburglar-item-obtained-3		222316
+	908417878	catburglar-on-mission-start	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-on-mission-start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\catburglar-on-mission-start		703656
+	1021007364	catburglar-item-obtained-1	C:\ChatCambrioleur\Sounds\wwise_project\.cache\Windows\SFX\catburglar-item-obtained-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\play-yarn-ball-pickup\catburglar-item-obtained-1		276652
+
