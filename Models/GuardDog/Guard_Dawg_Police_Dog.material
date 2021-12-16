@@ -1,0 +1,31 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "textureMap": "Models/GuardDog/Police Dog Low_Police_Dog_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Models/GuardDog/Police Dog Low_Police_Dog_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Models/GuardDog/Police Dog Low_Police_Dog_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "textureMap": "Models/GuardDog/Police Dog Low_Police_Dog_Roughness.png"
+        }
+    }
+}
