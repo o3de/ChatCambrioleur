@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Language="SFX" Hash="814900695">
+		<SoundBank Id="534561221" Language="SFX" Hash="4263001520">
 			<ObjectPath>\SoundBanks\Default Work Unit\mainsoundbank</ObjectPath>
 			<ShortName>mainsoundbank</ShortName>
 			<Path>mainsoundbank.bnk</Path>
@@ -28,11 +28,59 @@
 					</ActionPostEvent>
 				</Event>
 				<Event Id="1739713018" Name="mute_all" ObjectPath="\Events\Default Work Unit\default events\mute_all"/>
+				<Event Id="2682313633" Name="play_level_start" ObjectPath="\Events\Default Work Unit\SFX\play_level_start">
+					<IncludedMemoryFiles>
+						<File Id="463410661" Language="SFX">
+							<ShortName>narrator-level-start-announcement.wav</ShortName>
+							<Path>SFX\narrator-level-start-announcement_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1501423421" Name="play_on_level_fail" ObjectPath="\Events\Default Work Unit\SFX\play_on_level_fail">
+					<IncludedMemoryFiles>
+						<File Id="764658650" Language="SFX">
+							<ShortName>narrator-on-level-fail.wav</ShortName>
+							<Path>SFX\narrator-on-level-fail_10C4C929.wem</Path>
+						</File>
+						<File Id="864816229" Language="SFX">
+							<ShortName>catburglar-on-game-failure.wav</ShortName>
+							<Path>SFX\catburglar-on-game-failure_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3698728114" Name="play_on_level_success" ObjectPath="\Events\Default Work Unit\SFX\play_on_level_success">
+					<IncludedMemoryFiles>
+						<File Id="510769686" Language="SFX">
+							<ShortName>catburglar-on-level-end.wav</ShortName>
+							<Path>SFX\catburglar-on-level-end_10C4C929.wem</Path>
+						</File>
+						<File Id="590716617" Language="SFX">
+							<ShortName>narrator-on-level-end.wav</ShortName>
+							<Path>SFX\narrator-on-level-end_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3359566395" Name="play_on_mission_start" ObjectPath="\Events\Default Work Unit\SFX\play_on_mission_start">
 					<IncludedMemoryFiles>
 						<File Id="908417878" Language="SFX">
 							<ShortName>catburglar-on-mission-start.wav</ShortName>
 							<Path>SFX\catburglar-on-mission-start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="602467900" Name="play_on_puzzle_success" ObjectPath="\Events\Default Work Unit\SFX\play_on_puzzle_success">
+					<IncludedMemoryFiles>
+						<File Id="476589957" Language="SFX">
+							<ShortName>catburglar-on-puzzle-success.wav</ShortName>
+							<Path>SFX\catburglar-on-puzzle-success_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="531728480" Name="play_on_wordpuzzle_event_start" ObjectPath="\Events\Default Work Unit\SFX\play_on_wordpuzzle_event_start">
+					<IncludedMemoryFiles>
+						<File Id="342054298" Language="SFX">
+							<ShortName>catburglar-on-wordpuzzle-event-start.wav</ShortName>
+							<Path>SFX\catburglar-on-wordpuzzle-event-start_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
