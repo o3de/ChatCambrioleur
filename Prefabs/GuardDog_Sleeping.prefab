@@ -1,0 +1,179 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "GuardDog_Sleeping",
+        "Components": {
+            "Component_[11734492129010749287]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11734492129010749287
+            },
+            "Component_[12369952389565313627]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12369952389565313627
+            },
+            "Component_[12418400092970297926]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12418400092970297926,
+                "Parent Entity": ""
+            },
+            "Component_[16817042570965387577]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16817042570965387577
+            },
+            "Component_[17569431355978973144]": {
+                "$type": "SelectionComponent",
+                "Id": 17569431355978973144
+            },
+            "Component_[18098432120791617583]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 18098432120791617583,
+                "Child Entity Order": [
+                    "Entity_[83512000789339]"
+                ]
+            },
+            "Component_[2149730351253686164]": {
+                "$type": "EditorLockComponent",
+                "Id": 2149730351253686164
+            },
+            "Component_[2993043068209472007]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2993043068209472007
+            },
+            "Component_[3269515241500959889]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3269515241500959889
+            },
+            "Component_[6560855371824045593]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6560855371824045593
+            },
+            "Component_[7193312347411605224]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7193312347411605224
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[83512000789339]": {
+            "Id": "Entity_[83512000789339]",
+            "Name": "GuardDog_Sleeping",
+            "Components": {
+                "Component_[1194998918957278244]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1194998918957278244
+                },
+                "Component_[12190208233683281118]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12190208233683281118
+                },
+                "Component_[12435855591643467282]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12435855591643467282
+                },
+                "Component_[12511532595595076894]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12511532595595076894
+                },
+                "Component_[13854869006977149572]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13854869006977149572,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 6.0
+                    }
+                },
+                "Component_[13910679790814097462]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13910679790814097462
+                },
+                "Component_[15811208966268248068]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15811208966268248068
+                },
+                "Component_[3543470048386227904]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3543470048386227904,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13854869006977149572
+                        },
+                        {
+                            "ComponentId": 9302395994618073082,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4814650347459338624,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 6066744386650668842,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[4814650347459338624]": {
+                    "$type": "EditorSimpleMotionComponent",
+                    "Id": 4814650347459338624,
+                    "PreviewInEditor": true,
+                    "Configuration": {
+                        "MotionAsset": {
+                            "assetId": {
+                                "guid": "{0E4B56F1-15ED-543C-9CD6-6647684F7606}",
+                                "subId": 2873958182
+                            },
+                            "assetHint": "models/guarddog/guard_dawg nap.motion"
+                        },
+                        "Loop": true
+                    }
+                },
+                "Component_[6066744386650668842]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6066744386650668842,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4133466810
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EDA3D833-A922-5132-B555-34BDBD02F874}"
+                                            },
+                                            "assetHint": "models/guarddog/guard_dawg_police_dog.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7314193381468344666]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7314193381468344666
+                },
+                "Component_[8076776150101863477]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8076776150101863477
+                },
+                "Component_[9302395994618073082]": {
+                    "$type": "EditorActorComponent",
+                    "Id": 9302395994618073082,
+                    "ActorAsset": {
+                        "assetId": {
+                            "guid": "{0E4B56F1-15ED-543C-9CD6-6647684F7606}",
+                            "subId": 3887667403
+                        },
+                        "loadBehavior": "QueueLoad",
+                        "assetHint": "models/guarddog/guard_dawg.actor"
+                    },
+                    "MaterialPerLOD": [
+                        {}
+                    ],
+                    "AttachmentTarget": ""
+                }
+            }
+        }
+    }
+}
