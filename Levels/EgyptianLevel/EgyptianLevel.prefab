@@ -221,15 +221,33 @@
                     "value": "../Entity_[1146574390643]"
                 },
                 {
-                    "op": "add",
-                    "path": "/ContainerEntity/Components/Component_[9712223945444732857]/Transform Data",
-                    "value": {
-                        "Translate": [
-                            4.006086826324463,
-                            29.52060508728028,
-                            2.5928759574890137
-                        ]
-                    }
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9712223945444732857]/Transform Data/Translate/0",
+                    "value": 4.006086826324463
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9712223945444732857]/Transform Data/Translate/1",
+                    "value": 29.520605087280273
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9712223945444732857]/Transform Data/Translate/2",
+                    "value": 2.5928759574890137
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[23228468076277]/Components/Component_[7277428626847201788]/m_name",
+                    "value": "Gameplay.scriptcanvas"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[23228468076277]/Components/Component_[7277428626847201788]/runtimeDataOverrides/source/id",
+                    "value": "{2CB4BB8C-AF20-50F6-B2D4-9740943BE89A}"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
                 }
             ]
         },
@@ -328,17 +346,17 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12418400092970297926]/Transform Data/Translate/0",
-                    "value": -2.4131674766540527
+                    "value": -2.4781999588012695
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12418400092970297926]/Transform Data/Translate/1",
-                    "value": -4.250100612640381
+                    "value": -3.7913520336151123
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12418400092970297926]/Transform Data/Translate/2",
-                    "value": -0.9114221334457397
+                    "value": -0.9114221334457396
                 },
                 {
                     "op": "replace",
