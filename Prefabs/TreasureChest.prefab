@@ -1,0 +1,137 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "TreasureChest",
+        "Components": {
+            "Component_[1034647918824602849]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1034647918824602849
+            },
+            "Component_[12753487958558975482]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12753487958558975482
+            },
+            "Component_[13083960480092870697]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13083960480092870697
+            },
+            "Component_[13655313414449957177]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13655313414449957177
+            },
+            "Component_[13700231243256015900]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13700231243256015900,
+                "Child Entity Order": [
+                    "Entity_[18706248616041]"
+                ]
+            },
+            "Component_[14383727791629448184]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14383727791629448184,
+                "Parent Entity": ""
+            },
+            "Component_[1597700044958832275]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1597700044958832275
+            },
+            "Component_[16546498184252541204]": {
+                "$type": "SelectionComponent",
+                "Id": 16546498184252541204
+            },
+            "Component_[5404002941914091097]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5404002941914091097
+            },
+            "Component_[5695450805325460951]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5695450805325460951
+            },
+            "Component_[775064203805940185]": {
+                "$type": "EditorLockComponent",
+                "Id": 775064203805940185
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[18706248616041]": {
+            "Id": "Entity_[18706248616041]",
+            "Name": "TreasureChest",
+            "Components": {
+                "Component_[13367673244965502645]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13367673244965502645
+                },
+                "Component_[13945037078321978983]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13945037078321978983
+                },
+                "Component_[15840435637976633338]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15840435637976633338
+                },
+                "Component_[16411606043846342028]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16411606043846342028
+                },
+                "Component_[16683141640801866722]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16683141640801866722
+                },
+                "Component_[17397519757972199065]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17397519757972199065
+                },
+                "Component_[18051819107506492225]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 18051819107506492225,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2510F4DD-2FA6-5150-96E4-85B6AF50D0BA}",
+                                    "subId": 276065680
+                                },
+                                "assetHint": "models/treasurechest/treasure_chest.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4130583427959905729]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4130583427959905729,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9563628663585792963
+                        },
+                        {
+                            "ComponentId": 18051819107506492225,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13945037078321978983,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5645781305791459066]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5645781305791459066
+                },
+                "Component_[6225970478003844821]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6225970478003844821
+                },
+                "Component_[6746229351136546003]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6746229351136546003
+                },
+                "Component_[9563628663585792963]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9563628663585792963,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

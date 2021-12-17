@@ -33,7 +33,8 @@
                     "Instance_[12939175513500]/ContainerEntity",
                     "Instance_[6160851920398]/ContainerEntity",
                     "Instance_[23232763043573]/ContainerEntity",
-                    "Instance_[83503410854747]/ContainerEntity"
+                    "Instance_[83503410854747]/ContainerEntity",
+                    "Instance_[18697658681449]/ContainerEntity"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -82,7 +83,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.00005340576172,
-                            "EditorEntityId": 12204894391821417373
+                            "EditorEntityId": 12457971112975576061
                         }
                     }
                 },
@@ -191,6 +192,36 @@
                 {
                     "op": "remove",
                     "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[18697658681449]": {
+            "Source": "Prefabs/TreasureChest.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14383727791629448184]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14383727791629448184]/Transform Data/Translate/0",
+                    "value": -4.994528770446777
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14383727791629448184]/Transform Data/Translate/1",
+                    "value": 7.274506092071533
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14383727791629448184]/Transform Data/Translate/2",
+                    "value": -0.8919297456741333
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14383727791629448184]/Transform Data/Rotate/2",
+                    "value": -89.99994659423828
                 }
             ]
         },
@@ -357,12 +388,12 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12418400092970297926]/Transform Data/Translate/1",
-                    "value": -3.7913520336151123
+                    "value": -3.791352033615112
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12418400092970297926]/Transform Data/Translate/2",
-                    "value": -0.9114221334457397
+                    "value": -0.9114221334457396
                 },
                 {
                     "op": "replace",
