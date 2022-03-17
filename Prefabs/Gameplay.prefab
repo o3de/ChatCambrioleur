@@ -76,6 +76,20 @@
                     "$type": "EditorLockComponent",
                     "Id": 16640653031716266008
                 },
+                "Component_[18296273209729000115]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 18296273209729000115,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
+                "Component_[4542206816450436602]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 4542206816450436602,
+                    "Play Trigger": {
+                        "controlName": "play_yarn_ball_pickup"
+                    }
+                },
                 "Component_[5418846205635379886]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 5418846205635379886
@@ -88,22 +102,9 @@
                     "$type": "EditorScriptCanvasComponent",
                     "Id": 7277428626847201788,
                     "m_name": "Gameplay",
-                    "m_assetHolder": {
-                        "m_asset": {
-                            "assetId": {
-                                "guid": "{2CB4BB8C-AF20-50F6-B2D4-9740943BE89A}"
-                            },
-                            "assetHint": "scriptcanvas/gameplay.scriptcanvas"
-                        }
-                    },
                     "runtimeDataIsValid": true,
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "assetId": {
-                                "guid": "{2CB4BB8C-AF20-50F6-B2D4-9740943BE89A}"
-                            },
-                            "assetHint": "scriptcanvas/gameplay.scriptcanvas"
-                        }
+                    "sourceHandle": {
+                        "id": "{2CB4BB8C-AF20-50F6-B2D4-9740943BE89A}"
                     }
                 },
                 "Component_[780871327809253750]": {

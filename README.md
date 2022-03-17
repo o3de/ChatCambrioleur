@@ -21,6 +21,12 @@ Raphaël is one of the greatest Cat Burglars in the multiverse. His mission is t
 
 ![CatBurglar05](https://user-images.githubusercontent.com/82846749/141212634-52908bff-d2f5-44bf-926c-d42c3899858f.png)
 
+### Setup
+
+In order to enable audio for the game, you will need to install the Wwise audio SDK. The installation steps can be found here:
+
+https://o3de.org/docs/user-guide/gems/reference/audio/wwise/audio-engine-wwise/
+
 
 ### I hope you enjoy our game!
 

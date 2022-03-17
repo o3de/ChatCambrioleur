@@ -92,6 +92,20 @@
                         }
                     ]
                 },
+                "Component_[2024737712016713176]": {
+                    "$type": "EditorAudioTriggerComponent",
+                    "Id": 2024737712016713176,
+                    "Play Trigger": {
+                        "controlName": "play_on_mission_start"
+                    }
+                },
+                "Component_[221832687774660858]": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 221832687774660858,
+                    "m_template": {
+                        "$type": "AudioProxyComponent"
+                    }
+                },
                 "Component_[2783210843562550692]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 2783210843562550692,
@@ -115,23 +129,15 @@
                 "Component_[9357572300666327907]": {
                     "$type": "EditorScriptCanvasComponent",
                     "Id": 9357572300666327907,
-                    "m_name": "PlayerSpawnPoint",
-                    "m_assetHolder": {
-                        "m_asset": {
-                            "assetId": {
-                                "guid": "{B8E48655-8412-5FB6-AD23-359D0B2FEED2}"
-                            },
-                            "assetHint": "scriptcanvas/playerspawnpoint.scriptcanvas"
-                        }
-                    },
+                    "m_name": "PlayerSpawnPoint.scriptcanvas",
                     "runtimeDataIsValid": true,
                     "runtimeDataOverrides": {
                         "source": {
-                            "assetId": {
-                                "guid": "{B8E48655-8412-5FB6-AD23-359D0B2FEED2}"
-                            },
-                            "assetHint": "scriptcanvas/playerspawnpoint.scriptcanvas"
+                            "id": "{B8E48655-8412-5FB6-AD23-359D0B2FEED2}"
                         }
+                    },
+                    "sourceHandle": {
+                        "id": "{B8E48655-8412-5FB6-AD23-359D0B2FEED2}"
                     }
                 }
             }

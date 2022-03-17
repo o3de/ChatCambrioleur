@@ -76,17 +76,19 @@
                         }
                     ]
                 },
+                "Component_[13090105595058291478]": {
+                    "$type": "EditorTagComponent",
+                    "Id": 13090105595058291478,
+                    "Tags": [
+                        "MainMenu"
+                    ]
+                },
                 "Component_[13273373146472353403]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 13273373146472353403,
-                    "ChildEntityOrderEntryArray": [
-                        {
-                            "EntityId": "Entity_[22249215532789]"
-                        },
-                        {
-                            "EntityId": "Entity_[22244920565493]",
-                            "SortIndex": 1
-                        }
+                    "Child Entity Order": [
+                        "Entity_[22249215532789]",
+                        "Entity_[22244920565493]"
                     ]
                 },
                 "Component_[1570624329315355874]": {
@@ -106,22 +108,9 @@
                     "$type": "EditorScriptCanvasComponent",
                     "Id": 16232067986638427481,
                     "m_name": "menuInteraction",
-                    "m_assetHolder": {
-                        "m_asset": {
-                            "assetId": {
-                                "guid": "{5A852979-682A-5AA3-8085-145C403B027C}"
-                            },
-                            "assetHint": "scriptcanvas/menuinteraction.scriptcanvas"
-                        }
-                    },
                     "runtimeDataIsValid": true,
-                    "runtimeDataOverrides": {
-                        "source": {
-                            "assetId": {
-                                "guid": "{5A852979-682A-5AA3-8085-145C403B027C}"
-                            },
-                            "assetHint": "scriptcanvas/menuinteraction.scriptcanvas"
-                        }
+                    "sourceHandle": {
+                        "id": "{5A852979-682A-5AA3-8085-145C403B027C}"
                     }
                 },
                 "Component_[16640653031716266008]": {
@@ -206,192 +195,7 @@
                                 }
                             ]
                         }
-                    },
-                    "materialSlots": [
-                        {
-                            "id": {
-                                "materialSlotStableId": 3912275172
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{1A6F6A94-1084-5924-A8BC-04CB34FD3B99}"
-                                },
-                                "assetHint": "models/cam/cam_lambert3.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3912275172
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{1A6F6A94-1084-5924-A8BC-04CB34FD3B99}"
-                                },
-                                "assetHint": "models/cam/cam_lambert3.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3912275172
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{1A6F6A94-1084-5924-A8BC-04CB34FD3B99}"
-                                },
-                                "assetHint": "models/cam/cam_lambert3.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3912275172
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{1A6F6A94-1084-5924-A8BC-04CB34FD3B99}"
-                                },
-                                "assetHint": "models/cam/cam_lambert3.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3912275172
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{1A6F6A94-1084-5924-A8BC-04CB34FD3B99}"
-                                },
-                                "assetHint": "models/cam/cam_lambert3.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3912275172
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{1A6F6A94-1084-5924-A8BC-04CB34FD3B99}"
-                                },
-                                "assetHint": "models/cam/cam_lambert3.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3589680166
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3589680166
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3589680166
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3589680166
-                            }
-                        },
-                        {
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{1A6F6A94-1084-5924-A8BC-04CB34FD3B99}"
-                                },
-                                "assetHint": "models/cam/cam_lambert3.azmaterial"
-                            }
-                        }
-                    ],
-                    "materialSlotsByLod": [
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3912275172
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3912275172
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3912275172
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3912275172
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3912275172
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3912275172
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3589680166
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3589680166
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3589680166
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3589680166
-                                }
-                            }
-                        ],
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0
-                                }
-                            }
-                        ]
-                    ]
+                    }
                 },
                 "Component_[13506373932747230952]": {
                     "$type": "EditorLockComponent",

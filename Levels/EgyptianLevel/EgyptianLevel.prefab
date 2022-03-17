@@ -17,7 +17,25 @@
             },
             "Component_[14126657869720434043]": {
                 "$type": "EditorEntitySortComponent",
-                "Id": 14126657869720434043
+                "Id": 14126657869720434043,
+                "Child Entity Order": [
+                    "Instance_[3046207594011]/ContainerEntity",
+                    "Instance_[93306463409591]/ContainerEntity",
+                    "Instance_[74308511028528]/ContainerEntity",
+                    "Instance_[105941532141070]/ContainerEntity",
+                    "Instance_[120046204741134]/ContainerEntity",
+                    "Instance_[5078520161806]/ContainerEntity",
+                    "Instance_[96278580778423]/ContainerEntity",
+                    "Instance_[22253510500085]/ContainerEntity",
+                    "Instance_[59165043320334]/ContainerEntity",
+                    "Instance_[96175390750642]/ContainerEntity",
+                    "Entity_[31815817030114]",
+                    "Instance_[12939175513500]/ContainerEntity",
+                    "Instance_[6160851920398]/ContainerEntity",
+                    "Instance_[23232763043573]/ContainerEntity",
+                    "Instance_[83503410854747]/ContainerEntity",
+                    "Instance_[18697658681449]/ContainerEntity"
+                ]
             },
             "Component_[15230859088967841193]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -65,7 +83,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 55.00005340576172,
-                            "EditorEntityId": 10044181078359169965
+                            "EditorEntityId": 12457971112975576061
                         }
                     }
                 },
@@ -162,8 +180,48 @@
                     "value": "../Entity_[1146574390643]"
                 },
                 {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[8669978021276]/Components/Component_[5855590796136709437]/Child Entity Order/3",
+                    "value": "Instance_[8755877367196]/ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[8669978021276]/Components/Component_[5855590796136709437]/Child Entity Order/4",
+                    "value": "Instance_[20251115729918]/ContainerEntity"
+                },
+                {
                     "op": "remove",
                     "path": "/LinkId"
+                }
+            ]
+        },
+        "Instance_[18697658681449]": {
+            "Source": "Prefabs/TreasureChest.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14383727791629448184]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14383727791629448184]/Transform Data/Translate/0",
+                    "value": -4.994528770446777
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14383727791629448184]/Transform Data/Translate/1",
+                    "value": 7.274506092071533
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14383727791629448184]/Transform Data/Translate/2",
+                    "value": -0.8919297456741333
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14383727791629448184]/Transform Data/Rotate/2",
+                    "value": -89.99994659423828
                 }
             ]
         },
@@ -171,17 +229,23 @@
             "Source": "Prefabs/MainMenu.prefab",
             "Patches": [
                 {
-                    "op": "remove",
-                    "path": "/ContainerEntity/Components/Component_[1216683151632789831]/VisibilityFlag"
-                },
-                {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[15240930468554634341]/Parent Entity",
                     "value": "../Entity_[1146574390643]"
                 },
                 {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[22240625598197]/Components/Component_[16232067986638427481]/m_name",
+                    "value": "menuInteraction.scriptcanvas"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[22240625598197]/Components/Component_[16232067986638427481]/runtimeDataOverrides/source/id",
+                    "value": "{5A852979-682A-5AA3-8085-145C403B027C}"
+                },
+                {
                     "op": "remove",
-                    "path": "/ContainerEntity/Components/Component_[15240930468554634341]/Transform Data"
+                    "path": "/LinkId"
                 }
             ]
         },
@@ -194,15 +258,33 @@
                     "value": "../Entity_[1146574390643]"
                 },
                 {
-                    "op": "add",
-                    "path": "/ContainerEntity/Components/Component_[9712223945444732857]/Transform Data",
-                    "value": {
-                        "Translate": [
-                            4.006086826324463,
-                            29.52060508728028,
-                            2.5928759574890137
-                        ]
-                    }
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9712223945444732857]/Transform Data/Translate/0",
+                    "value": 4.006086826324463
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9712223945444732857]/Transform Data/Translate/1",
+                    "value": 29.520605087280273
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[9712223945444732857]/Transform Data/Translate/2",
+                    "value": 2.5928759574890137
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[23228468076277]/Components/Component_[7277428626847201788]/m_name",
+                    "value": "Gameplay.scriptcanvas"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[23228468076277]/Components/Component_[7277428626847201788]/runtimeDataOverrides/source/id",
+                    "value": "{2CB4BB8C-AF20-50F6-B2D4-9740943BE89A}"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
                 }
             ]
         },
@@ -287,6 +369,44 @@
                             6.20440673828125
                         ]
                     }
+                }
+            ]
+        },
+        "Instance_[83503410854747]": {
+            "Source": "Prefabs/GuardDog_Sleeping.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12418400092970297926]/Parent Entity",
+                    "value": "../Entity_[1146574390643]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12418400092970297926]/Transform Data/Translate/0",
+                    "value": -2.4781999588012695
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12418400092970297926]/Transform Data/Translate/1",
+                    "value": -3.791352033615112
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12418400092970297926]/Transform Data/Translate/2",
+                    "value": -0.9114221334457396
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[12418400092970297926]/Transform Data/Rotate/2",
+                    "value": 33.41812515258789
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[83512000789339]/Components/Component_[1194998918957278244]/Child Entity Order/1"
+                },
+                {
+                    "op": "remove",
+                    "path": "/LinkId"
                 }
             ]
         },

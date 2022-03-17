@@ -2,6 +2,7 @@
 set(ENABLED_GEMS
     GentlecatThief
     Atom
+    AudioEngineWwise
     AudioSystem
     AWSCore
     CameraFramework
