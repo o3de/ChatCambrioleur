@@ -11,6 +11,7 @@
         "GentlecatThief"
     ],
     "icon_path": "preview.png",
-    "engine": "o3de-aws",
-    "restricted_name": "projects"
+    "engine": "o3de",
+    "external_subdirectories": [],
+    "project_id": "{27bcebe5-fb36-49ec-beb6-ec24bf7b337f}"
 }
