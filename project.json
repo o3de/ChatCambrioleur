@@ -1,9 +1,10 @@
 {
     "project_name": "GentlecatThief",
-    "origin": "The primary repo for GentlecatThief goes here: i.e. http://www.mydomain.com",
+    "project_id": "{27bcebe5-fb36-49ec-beb6-ec24bf7b337f}",
+    "origin": "https://github.com/o3de/ChatCambrioleur",
     "license": "What license GentlecatThief uses goes here: i.e. https://opensource.org/licenses/MIT",
     "display_name": "GentlecatThief",
-    "summary": "A short description of GentlecatThief.",
+    "summary": "Chat Cambrioleur is an O3DE game jam project that was created to create a puzzle-like adventure for our feline friend.",
     "canonical_tags": [
         "Project"
     ],
@@ -12,6 +13,7 @@
     ],
     "icon_path": "preview.png",
     "engine": "o3de",
-    "external_subdirectories": [],
-    "project_id": "{27bcebe5-fb36-49ec-beb6-ec24bf7b337f}"
+    "external_subdirectories": [
+        "Gem"
+    ]
 }
